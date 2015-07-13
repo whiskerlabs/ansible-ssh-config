@@ -1,0 +1,13 @@
+---
+# A list of ssh_config sections defined as dictionaries. Entries must
+# contain a `host` field and any set of ssh_config options.
+#
+# e.g.
+# - host: "*"
+#   HashKnownHosts: yes
+#   GSSAPIAuthentication: yes
+#   GSSAPIDelegateCredentials: no
+# - host: example.com
+#   ServerAliveInterval: 300
+#   ServerAliveCountMax: 2
+ssh_config_host_configs: []

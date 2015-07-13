@@ -1,0 +1,29 @@
+---
+galaxy_info:
+  author: Evan Meagher
+  description: Configure a system-wide SSH configuration
+  company: Whisker Labs
+  license: MIT
+  min_ansible_version: 1.4
+
+  platforms:
+    - name: GenericLinux
+      versions:
+        - all
+
+  categories:
+    #- cloud
+    #- cloud:ec2
+    #- cloud:gce
+    #- cloud:rax
+    #- clustering
+    #- database
+    #- database:nosql
+    #- database:sql
+    #- development
+    #- monitoring
+    - networking
+    #- packaging
+    - system
+    #- web
+dependencies: []
