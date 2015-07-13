@@ -1,5 +1,7 @@
 # ansible-ssh-config
 
+[![Ansible Galaxy](http://img.shields.io/badge/galaxy-armsible.ssh--config-660198.svg)](https://galaxy.ansible.com/list#/roles/4365)
+
 An Ansible role for installing a system-wide SSH configuration.
 
 This role installs a templatized `/etc/ssh/ssh_config` file based
