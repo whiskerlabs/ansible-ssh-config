@@ -1,11 +1,5 @@
 ---
 
-- set_fact: ssh_config_path="/etc/ssh/ssh_config"
-  when: ssh_config_system_wide
-
-- set_fact: ssh_config_path="~/.ssh/config"
-  when: not ssh_config_system_wide
-
 - name: copy ssh_config as wide system config
   template:
     src: "ssh_config.j2"
