@@ -1,6 +1,7 @@
 ---
-- name: copy ssh_config
+
+- name: copy ssh_config as wide system config
   template:
     src: "ssh_config.j2"
-    dest: "/etc/ssh/ssh_config"
+    dest: "{{ ssh_config_path }}"
     mode: 0644

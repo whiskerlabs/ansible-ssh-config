@@ -11,3 +11,4 @@
 #   ServerAliveInterval: 300
 #   ServerAliveCountMax: 2
 ssh_config_host_configs: []
+ssh_config_path: "/etc/ssh/ssh_config"
