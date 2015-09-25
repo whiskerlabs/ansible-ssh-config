@@ -1,5 +1,6 @@
 # {{ ansible_managed }}
 #
+{% if ssh_config_system_wide %}
 # This is the ssh client system-wide configuration file.  See
 # ssh_config(5) for more information.  This file provides defaults for
 # users, and the values can be changed in per-user configuration files
@@ -16,6 +17,7 @@
 # Site-wide defaults for some commonly used options.  For a comprehensive
 # list of available options, their meanings and defaults, please see the
 # ssh_config(5) man page.
+{% endif %}
 
 {% for host_config in ssh_config_host_configs %}
 Host {{host_config.host}}
